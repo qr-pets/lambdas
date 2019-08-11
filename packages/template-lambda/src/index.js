@@ -1,7 +1,7 @@
 export default async () => {
   const response = {
     statusCode: 200,
-    body: JSON.stringify('Hello from Lambd!!!!'),
+    body: JSON.stringify('Hello from Lambda!!!!'),
   };
   return response;
 };
