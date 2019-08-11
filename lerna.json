@@ -1,7 +1,7 @@
 {
   "command": {
     "publish": {
-      "ignoreChanges": ["packages/template-lambda"]
+      "ignoreChanges": ["packages/template-lambda/**"]
     },
     "version": {
       "allowBranch": ["master"]
