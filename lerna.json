@@ -1,0 +1,14 @@
+{
+  "command": {
+    "publish": {
+      "ignoreChanges": ["packages/template-lambda"]
+    },
+    "version": {
+      "allowBranch": ["master"]
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent"
+}

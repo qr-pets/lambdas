@@ -1,0 +1,16 @@
+{
+  "name": "template-lambda",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "(mkdir dist ||  rm dist/* || rm -rf dist ) && webpack && cd dist && zip -qr archive.zip index.js",
+    "lint": "eslint --ext .js ./src",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
